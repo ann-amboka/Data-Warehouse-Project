@@ -1,70 +1,73 @@
-#Data Warehouse Using SQL (ETL Processes + Analytics)
-About the Project
+📦 Data Warehouse Using SQL (ETL Processes + Analytics)
+📘 About the Project
 
-This project demonstrates the end-to-end development of a modern data-warehouse solution using SQL. It covers the full lifecycle of data processing: ingesting raw operational data, transforming it through structured ETL workflows, and preparing it for analytics through a Medallion Architecture (Bronze → Silver → Gold).
+This project showcases the full development of a modern SQL-based data warehouse, from raw data ingestion to analytics-ready datasets.
 
-The project is designed as both a learning experience and a fully functioning warehouse implementation, following industry-level standards in data modelling, naming conventions, traceability, and data quality management.
+It follows the Medallion Architecture (Bronze → Silver → Gold) and applies industry standards in modelling, naming conventions, lineage tracking, and data quality.
 
-About Me
+👩🏽‍💻 About Me
 
-My name is Ann Amboka Amukasah, a data enthusiast transitioning into analytics and data engineering.
-This project documents my hands-on journey in building a complete warehouse from scratch—designing the architecture, creating ETL pipelines, applying business rules, and preparing analytical outputs.
+I’m Ann Amboka Amukasah, a data enthusiast transitioning into analytics and data engineering.
 
-Project Goals
+This project represents my hands-on journey in designing warehouse architecture, building ETL pipelines, applying business rules, and preparing data for analytics.
 
-Build a complete SQL-based data warehouse following best practices
+🎯 Project Goals
 
-Implement a clean ETL workflow using the Medallion Architecture
+Build a complete SQL-based data warehouse using best practices
 
-Apply data-modelling principles (staging, standardisation, dimensional modelling)
+Implement structured ETL workflows using the Medallion method
 
-Ensure transparency and traceability at every stage
+Apply staging, standardisation, and dimensional modelling
 
-Produce analytical outputs suitable for dashboards, reporting, and insights
+Maintain strong traceability and data governance
 
-Warehouse Architecture
+Produce analysis-ready datasets for BI and reporting
 
-This project uses the Medallion Architecture, structured as:
+🏛️ Warehouse Architecture
+🥉 Bronze Layer — Raw Data
 
-Bronze Layer – Raw Data
+Stores ingested data in its original form
 
-Stores ingested data exactly as received
+Minimal preprocessing
 
-Minimal preprocessing (basic structure only)
+Includes traceability fields (LoadDate, SourceFile, RowID)
 
-Includes standard traceability columns (LoadDate, SourceFile, RowID)
+🥈 Silver Layer — Clean & Standardized Data
 
-Silver Layer – Clean & Standardized Data
-
-Cleans all formatting issues
+Fixes formatting and inconsistent entries
 
 Normalises datatypes
 
 Applies business rules
 
-Adds calculated fields where needed
+Adds calculated fields
 
-Ensures referential integrity and high-quality records
+Ensures referential integrity and high data quality
 
-Gold Layer – Analytics
+🥇 Gold Layer — Analytics
 
-Dimensional models (Facts & Dimensions)
+Fact and Dimension tables (Star Schema)
 
-Ready for reporting, dashboards, and BI tools
+Aggregations and business-aligned metrics
 
-Aggregated and business-aligned datasets
+Optimised for dashboards and BI tools
 
-ETL Approach
-Extraction
+⚙️ ETL Approach
+🔹 Extraction
 
 Source: Raw CSV files
 
+Loaded directly into the Bronze schema
 
-Tools & Requirements:
+File metadata captured for lineage
 
-SQL Server / Azure SQL (primary environment)
+🧰 Tools & Requirements
 
-Draw.io / diagrams.net for data-modelling & architecture diagrams
+SQL Server / Azure SQL
+
+Draw.io / diagrams.net (data models & architecture diagrams)
+
+GitHub (version control & documentation)
 
 GitHub for version control
 
