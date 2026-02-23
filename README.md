@@ -52,7 +52,7 @@ Aggregations and business-aligned metrics
 
 Optimised for dashboards and BI tools
 
-![Funnel Dashboard](PASTE_YOUR_IMAGE_LINK_HERE)
+![Funnel Dashboard](https://github.com/ann-amboka/Data-Warehouse-Project/blob/main/Data%20Warehouse%20Diagram.drawio.png)
 
 ⚙️ ETL Approach
 🔹 Extraction
