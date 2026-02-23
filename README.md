@@ -52,6 +52,8 @@ Aggregations and business-aligned metrics
 
 Optimised for dashboards and BI tools
 
+![Funnel Dashboard](PASTE_YOUR_IMAGE_LINK_HERE)
+
 ⚙️ ETL Approach
 🔹 Extraction
 
